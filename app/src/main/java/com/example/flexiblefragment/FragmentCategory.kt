@@ -34,7 +34,7 @@ class FragmentCategory : Fragment() , View.OnClickListener{
 
             val mBundle = Bundle()
             mBundle.putString(DetailCategoryFragment.EXTRA_NAME,"Lifestyle")
-            val description = "kategori ini akan berisa produk-produk"
+            val description = "kategori ini akan berisi produk-produk lifestyle"
 
             mDetailCategoryFragment.arguments = mBundle
             mDetailCategoryFragment.description = description
